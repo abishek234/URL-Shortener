@@ -1,10 +1,9 @@
 const connect = require('./configs/db');
-const express = require('express');
-
+const app = require('./index');
 require("dotenv").config();
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 9000;
 
-const app = express();
+
 app.listen(PORT, async () => {
     try {
         await connect();
