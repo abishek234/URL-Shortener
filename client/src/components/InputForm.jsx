@@ -60,7 +60,7 @@ export const InputForm = () =>{
             bg="dark"
             className={ styles.mainContainer } >
             <FormControl isInvalid={ isError }>
-                <FormLabel >Convert long URLs into shortened versions with a single click.</FormLabel>
+                <FormLabel >Make long URLs into a  shortened URL with a single click.</FormLabel>
                 <Input
                     id="longUrl"
                     type="url"
