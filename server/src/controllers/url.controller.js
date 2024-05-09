@@ -33,10 +33,7 @@ router.post("/shorten", async (req, res) => {
             return res.status(401).json({ error: "Invalid Url" });
         }
 
-        let res = await fetch(longUrl, {method:'HEAD'});
-        if (res.status >= 200 && res.status < 300) {
-            return res.status(401).json({ error: " Not Active Url" });
-        }
+        
 
         if (urlCode) {
             const existingCodeBookmark = await URLModel.findOne({ urlCode });
