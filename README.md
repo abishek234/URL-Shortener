@@ -17,7 +17,7 @@ URL Shortener Web Application is a user-friendly web-based tool that allows user
 Try out the live demo of the URL Shortener Web Application [here](https://url-shortener-lime-three.vercel.app/).
 
 ## Installation
-To run the URL Shortener Web Application locally, follow these steps:
+To run the URL Shortener Service Web Application locally, follow these steps:
 
 1. Clone the repository:
 
