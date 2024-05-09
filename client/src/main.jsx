@@ -7,7 +7,6 @@ import { BrowserRouter } from 'react-router-dom';
 import axios from 'axios';
 
 
-const serverLocal = "http://localhost:9000";
 const serverBaseUrl = import.meta.env.VITE_APP_URI;
 axios.defaults.baseURL = serverBaseUrl;
 
