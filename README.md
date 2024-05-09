@@ -1,7 +1,7 @@
 # URL Shortener Service  Web Application
 
 ## Description
-URL Shortener Web Application is a user-friendly web-based tool that allows users to create shortened versions of long URLs, making them easier to share. This project is built using the MERN stack (MongoDB, Express, React, Node.js) and styled with Chakra UI for a visually appealing and responsive user interface.
+URL Shortener Service Web Application is a user-friendly web-based tool that allows users to create shortened versions of long URLs, making them easier to share. This project is built using the MERN stack (MongoDB, Express, React, Node.js) and styled with Chakra UI for a visually appealing and responsive user interface.
 
 ## Features
 - Shorten URLs: Using just one click, you may shorten lengthy URLs to a defined length and unique URL
